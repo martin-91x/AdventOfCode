@@ -10,7 +10,7 @@ NR_DAYS = 80
 
 # Read number of lanternfish
 with open("lanternfish.csv", encoding='UTF-8') as f:
-    # Numbers file has only one row - using next on the reader to get it
+    # File has only one row - using next on the reader to get it
     lanternfish_list = next(csv.reader(f))
 
 # Convert lanternfish_list to a numpy array
